@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lukebrandonfarrell\\laravel-devices\\": "src/"
+            "LBF\\Devices\\": "src/"
         }
     },
     "extra": {
