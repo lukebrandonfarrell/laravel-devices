@@ -28,6 +28,6 @@ class LbfCreateSessionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_devices');
+        Schema::dropIfExists('device_sessions');
     }
 }
