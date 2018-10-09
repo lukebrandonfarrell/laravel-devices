@@ -1,6 +1,7 @@
 {
     "name": "lukebrandonfarrell/laravel-devices",
     "description": "Adds device infrastructure for storing connected devices and authenticating anonymous users to your application",
+    "keywords": ["laravel", "devices", "platforms", "tracking", "authentication", "mobile", "web"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +10,11 @@
             "email": "lukebrandonfarrell@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "stable",
+    "require": {
+      "php": "^7.0",
+      "laravel/framework": "^5.0"
+    },
     "autoload": {
         "psr-4": {
             "lukebrandonfarrell\\laravel-devices\\": "src/"
