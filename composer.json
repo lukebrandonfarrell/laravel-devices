@@ -23,11 +23,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "lukebrandonfarrell\\laravel-devices\\DeviceServiceProvider"
+                "lukebrandonfarrell\\laravel-devices\\src\\DeviceServiceProvider"
             ],
-            "aliases": {
-                "Mongo": "lukebrandonfarrell\\laravel-devices\\DeviceFacade"
-            }
         }
     }
 }
