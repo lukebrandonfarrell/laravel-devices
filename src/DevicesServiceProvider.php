@@ -15,6 +15,10 @@ class DevicesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->publishes([
+            __DIR__.'/path/to/assets' => public_path('vendor/courier'),
+        ], 'public');
+
         $this->loadRoutesFrom(__DIR__.'/routes/api.php');
         $this->loadMigrationsFrom(__DIR__.'/Migrations');
         $this->registerCustomValidationRules();

@@ -1,5 +1,5 @@
 {
-    "name": "lukebrandonfarrell/devices",
+    "name": "lukebrandonfarrell/laravel-devices",
     "description": "Adds device infrastructure for storing connected devices and authenticating anonymous users to your application",
     "type": "library",
     "license": "MIT",
@@ -13,16 +13,16 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "lukebrandonfarrell\\devices\\": "src/"
+            "lukebrandonfarrell\\laravel-devices\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "lukebrandonfarrell\\devices\\DeviceServiceProvider"
+                "lukebrandonfarrell\\laravel-devices\\DeviceServiceProvider"
             ],
             "aliases": {
-                "Mongo": "lukebrandonfarrell\\devices\\DeviceFacade"
+                "Mongo": "lukebrandonfarrell\\laravel-devices\\DeviceFacade"
             }
         }
     }
