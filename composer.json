@@ -19,12 +19,5 @@
         "psr-4": {
             "LBF\\Devices\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "lukebrandonfarrell\\laravel-devices\\src\\DeviceServiceProvider"
-            ]
-        }
     }
 }
