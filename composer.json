@@ -24,7 +24,7 @@
         "laravel": {
             "providers": [
                 "lukebrandonfarrell\\laravel-devices\\src\\DeviceServiceProvider"
-            ],
+            ]
         }
     }
 }
